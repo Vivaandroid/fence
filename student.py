@@ -8,7 +8,7 @@ def main():
     if validate_student_email(email):
         print("Valid student email")
     else:
-        print("Invalid student email")
+        print("Invalid student email address")
 
 
 if __name__ == "__main__":
