@@ -11,7 +11,7 @@ class TestStudentEmail(unittest.TestCase):
 
     def test_invalid_email(self):
         self.assertFalse(
-             validate_student_email("studentexample.com")
+             validate_student_email("student@example.com")
         )
 
 
